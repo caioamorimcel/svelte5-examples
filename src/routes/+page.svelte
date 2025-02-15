@@ -8,6 +8,9 @@
 		<a href="./svelte/derived"> DERIVED </a>
 	</li>
 	<li>
+		<a href="./svelte/bind/checkbox"> BIND - CHECKBOX</a>
+	</li>
+	<li>
 		<a href="./svelte/children"> CHILDREN </a>
 	</li>
 	<li>
