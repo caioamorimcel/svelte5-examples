@@ -12,6 +12,6 @@
 	{#if children}
 		{@render children()}
 	{:else}
-		EMPTY!
+		<div style="color:red;">VAZIO!</div>
 	{/if}
 </div>

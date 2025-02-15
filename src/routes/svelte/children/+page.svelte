@@ -1,8 +1,8 @@
 <script lang="ts">
-	import Component from './Component.svelte';
+	import FundoCinza from './FundoCinza.svelte';
 </script>
 
-<Component>
-	<div style="color:white;">HELLO!</div>
-</Component>
-<Component />
+<FundoCinza>
+	<div style="color:white;">TEXTO BRANCO!</div>
+</FundoCinza>
+<FundoCinza />
