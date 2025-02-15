@@ -2,6 +2,12 @@
 
 <ul>
 	<li>
+		<a href="./svelte/state"> STATE </a>
+	</li>
+	<li>
+		<a href="./svelte/derived"> DERIVED </a>
+	</li>
+	<li>
 		<a href="./svelte/children"> CHILDREN </a>
 	</li>
 	<li>
