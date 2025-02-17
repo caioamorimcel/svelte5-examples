@@ -22,6 +22,6 @@
 
 <ul>
 	<li>
-		<a href="./sveltekit/..."> ... </a>
+		<a href="./sveltekit/load-function">LOAD FUNCTION</a>
 	</li>
 </ul>
