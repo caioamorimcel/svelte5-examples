@@ -16,12 +16,15 @@
 	<li>
 		<a href="./svelte/children-parameter"> CHILDREN WITH PARAMETER </a>
 	</li>
+	<li>
+		<a href=".svelte/props">PROPS</a>
+	</li>
 </ul>
 
 <h1>EXEMPLOS DE SVELTEKIT</h1>
 
 <ul>
 	<li>
-		<a href="./sveltekit/..."> ... </a>
+		<a href="./sveltekit/load-function">LOAD FUNCTION</a>
 	</li>
 </ul>
