@@ -8,8 +8,8 @@
 	} = $props();
 </script>
 
-<p>Oi. Meu nome é {nome}.</p>
+<p>MEU NOME É {nome}.</p>
 
 {#if idade !== undefined}
-	<p>E eu tenho {idade} anos</p>
+	<p>Eu tenho {idade} anos.</p>
 {/if}

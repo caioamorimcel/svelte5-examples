@@ -2,4 +2,4 @@
 	import Componente from './Componente.svelte';
 </script>
 
-<Componente nome={'Caio'} />
+<Componente nome={'CAIO'} />

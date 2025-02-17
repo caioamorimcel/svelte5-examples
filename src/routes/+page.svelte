@@ -8,6 +8,9 @@
 		<a href="./svelte/derived"> DERIVED </a>
 	</li>
 	<li>
+		<a href=".svelte/props">PROPS</a>
+	</li>
+	<li>
 		<a href="./svelte/bind/checkbox"> BIND - CHECKBOX</a>
 	</li>
 	<li>
@@ -16,15 +19,15 @@
 	<li>
 		<a href="./svelte/children-parameter"> CHILDREN WITH PARAMETER </a>
 	</li>
-	<li>
-		<a href=".svelte/props">PROPS</a>
-	</li>
 </ul>
 
 <h1>EXEMPLOS DE SVELTEKIT</h1>
 
 <ul>
 	<li>
-		<a href="./sveltekit/load-function">LOAD FUNCTION</a>
+		<a href="./sveltekit/server-load-function">SERVER LOAD FUNCTION</a>
+	</li>
+	<li>
+		<a href="./sveltekit/universal-load-function">UNIVERSAL LOAD FUNCTION</a>
 	</li>
 </ul>
