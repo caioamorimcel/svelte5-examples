@@ -8,7 +8,10 @@
 		<a href="./svelte/derived"> DERIVED </a>
 	</li>
 	<li>
-		<a href=".svelte/props">PROPS</a>
+		<a href="./svelte/componente">COMPONENTE</a>
+	</li>
+	<li>
+		<a href="./svelte/props">PROPS</a>
 	</li>
 	<li>
 		<a href="./svelte/bind/checkbox"> BIND - CHECKBOX</a>
