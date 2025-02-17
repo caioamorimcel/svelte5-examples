@@ -16,6 +16,9 @@
 	<li>
 		<a href="./svelte/children-parameter"> CHILDREN WITH PARAMETER </a>
 	</li>
+	<li>
+		<a href=".svelte/props">PROPS</a>
+	</li>
 </ul>
 
 <h1>EXEMPLOS DE SVELTEKIT</h1>
