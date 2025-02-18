@@ -26,7 +26,10 @@
 		<a href="./svelte/class-directive">CLASS DIRECTIVE</a>
 	</li>
 	<li>
-		<a href="./svelte/EFFECT">$EFFECT</a>
+		<a href="./svelte/effect">$EFFECT</a>
+	</li>
+	<li>
+		<a href="./svelte/style-directive">STYLE DIRECTIVE</a>
 	</li>
 </ul>
 
