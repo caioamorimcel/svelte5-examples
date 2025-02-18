@@ -1,1 +1,1 @@
-<p>Aqui está a página principal</p>
+<p>ESTA É A PÁGINA PRINCIPAL.</p>

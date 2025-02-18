@@ -1,11 +1,10 @@
 <script lang="ts">
-  
 </script>
 
-{#snippet saudacao(par:string)}
+{#snippet saudacao(par: string)}
 	<div>FELIZ {par}!</div>
 {/snippet}
 
-{@render saudacao("NATAL")}
-{@render saudacao("ANO NOVO")}
-{@render saudacao("PÁSCOA")}
+{@render saudacao('NATAL')}
+{@render saudacao('ANO NOVO')}
+{@render saudacao('PÁSCOA')}
