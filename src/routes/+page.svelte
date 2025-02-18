@@ -11,6 +11,15 @@
 		<a href="./svelte/effect">EFFECT</a>
 	</li>
 	<li>
+		<a href="./svelte/bind/checkbox"> BIND - CHECKBOX</a>
+	</li>
+	<li>
+		<a href="./svelte/bind/input">BIND - INPUT</a>
+	</li>
+	<li>
+		<a href="./svelte/bind/select">BIND - SELECT</a>
+	</li>
+	<li>
 		<a href="./svelte/class-directive">CLASS DIRECTIVE</a>
 	</li>
 	<li>
@@ -29,10 +38,7 @@
 		<a href="./svelte/snippet-parameter">SNIPPET COM PARÂMETRO</a>
 	</li>
 	<li>
-		<a href="./svelte/prop-snippet">PROP SNIPPET</a>
-	</li>
-	<li>
-		<a href="./svelte/bind/checkbox"> BIND - CHECKBOX</a>
+		<a href="./svelte/prop-snippet">PASSANDO SNIPPET COMO PROP</a>
 	</li>
 	<li>
 		<a href="./svelte/children"> CHILDREN </a>
@@ -40,16 +46,6 @@
 	<li>
 		<a href="./svelte/children-parameter"> CHILDREN WITH PARAMETER </a>
 	</li>
-	<li>
-		<a href="./svelte/bind-input">BIND-INPUT</a>
-	</li>
-	<li>
-		<a href="./svelte/bind-select">BIND-SELECT</a>
-	</li>
-	<li>
-		<a href="./sveltekit/layout">LAYOUT</a>
-	</li>
-	>
 </ul>
 
 <h1>EXEMPLOS DE SVELTEKIT</h1>
@@ -60,5 +56,8 @@
 	</li>
 	<li>
 		<a href="./sveltekit/universal-load-function">UNIVERSAL LOAD FUNCTION</a>
+	</li>
+	<li>
+		<a href="./sveltekit/layout">LAYOUT</a>
 	</li>
 </ul>
