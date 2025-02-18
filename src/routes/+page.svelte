@@ -40,6 +40,16 @@
 	<li>
 		<a href="./svelte/children-parameter"> CHILDREN WITH PARAMETER </a>
 	</li>
+	<li>
+		<a href="./svelte/bind-input">BIND-INPUT</a>
+	</li>
+	<li>
+		<a href="./svelte/bind-select">BIND-SELECT</a>
+	</li>
+	<li>
+		<a href="./sveltekit/layout">LAYOUT</a>
+	</li>
+	>
 </ul>
 
 <h1>EXEMPLOS DE SVELTEKIT</h1>
