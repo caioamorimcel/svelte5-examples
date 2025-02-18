@@ -25,6 +25,9 @@
 	<li>
 		<a href="./svelte/class-directive">CLASS DIRECTIVE</a>
 	</li>
+	<li>
+		<a href="./svelte/EFFECT">$EFFECT</a>
+	</li>
 </ul>
 
 <h1>EXEMPLOS DE SVELTEKIT</h1>
