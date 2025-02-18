@@ -23,6 +23,15 @@
 		<a href="./svelte/props">PROPS</a>
 	</li>
 	<li>
+		<a href="./svelte/snippet">SNIPPET</a>
+	</li>
+	<li>
+		<a href="./svelte/snippet-parameter">SNIPPET COM PARÂMETRO</a>
+	</li>
+	<li>
+		<a href="./svelte/prop-snippet">PROP SNIPPET</a>
+	</li>
+	<li>
 		<a href="./svelte/bind/checkbox"> BIND - CHECKBOX</a>
 	</li>
 	<li>
