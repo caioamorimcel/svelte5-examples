@@ -8,6 +8,15 @@
 		<a href="./svelte/derived"> DERIVED </a>
 	</li>
 	<li>
+		<a href="./svelte/effect">EFFECT</a>
+	</li>
+	<li>
+		<a href="./svelte/class-directive">CLASS DIRECTIVE</a>
+	</li>
+	<li>
+		<a href="./svelte/style-directive">STYLE DIRECTIVE</a>
+	</li>
+	<li>
 		<a href="./svelte/componente">COMPONENTE</a>
 	</li>
 	<li>
@@ -21,15 +30,6 @@
 	</li>
 	<li>
 		<a href="./svelte/children-parameter"> CHILDREN WITH PARAMETER </a>
-	</li>
-	<li>
-		<a href="./svelte/class-directive">CLASS DIRECTIVE</a>
-	</li>
-	<li>
-		<a href="./svelte/effect">$EFFECT</a>
-	</li>
-	<li>
-		<a href="./svelte/style-directive">STYLE DIRECTIVE</a>
 	</li>
 </ul>
 

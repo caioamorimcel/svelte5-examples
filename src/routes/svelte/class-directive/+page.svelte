@@ -2,17 +2,30 @@
 	let contador = $state(0);
 </script>
 
-<button
-	class:active={contador > 10}
-	onclick={() => {
-		contador += 1;
-	}}>CLIQUE AQUI</button
->
-{contador}
+<div>
+	CLIQUE NOS BOTÕES PARA MODIFICAR O VALOR DO CONTADOR. PARA VALORES POSITIVOS, O FUNDO FICARÁ VERDE
+	E PARA VALORES NEGATIVOS FICARÁ VERMELHO.
+</div>
+
+<div>
+	<button class:classButton={contador > 5} onclick={() => (contador = contador - 1)}
+		>DIMINUIR</button
+	>
+	<span class:classGreen={contador > 0} class:classRed={contador < 0}>
+		{contador}
+	</span>
+	<button class:classButton={contador > 5} onclick={() => (contador = contador + 1)}
+		>AUMENTAR</button
+	>
+</div>
 
 <style>
-	.active {
-		background-color: #ff3e00;
+	.classRed {
+		background-color: red;
+		color: white;
+	}
+	.classGreen {
+		background-color: lightgreen;
 		color: white;
 	}
 </style>
