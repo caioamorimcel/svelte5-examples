@@ -61,6 +61,12 @@
 		<a href="./sveltekit/layout">LAYOUT</a>
 	</li>
 	<li>
-		<a href="./sveltekit/searchParams">searchParams</a>
+		<a href="./sveltekit/searchParams">SEARCH PARAMS</a>
+	</li>
+	<li>
+		<a href="./sveltekit/params/620">PARAMS</a>
+	</li>
+	<li>
+		<a href="./sveltekit/params-matcher/42">PARAM MATCHER</a>
 	</li>
 </ul>
