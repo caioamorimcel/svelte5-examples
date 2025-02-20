@@ -73,4 +73,7 @@
 	<li>
 		<a href="./sveltekit/params-matcher/42">PARAM MATCHER</a>
 	</li>
+	<li>
+		<a href="./sveltekit/page-state">PAGE STATE</a>
+	</li>
 </ul>
