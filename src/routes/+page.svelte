@@ -60,4 +60,7 @@
 	<li>
 		<a href="./sveltekit/layout">LAYOUT</a>
 	</li>
+	<li>
+		<a href="./sveltekit/searchParams">searchParams</a>
+	</li>
 </ul>
