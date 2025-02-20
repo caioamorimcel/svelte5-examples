@@ -8,9 +8,6 @@
 		<a href="./svelte/derived"> DERIVED </a>
 	</li>
 	<li>
-		<a href="./svelte/effect">EFFECT</a>
-	</li>
-	<li>
 		<a href="./svelte/bind/checkbox"> BIND - CHECKBOX</a>
 	</li>
 	<li>
@@ -19,6 +16,13 @@
 	<li>
 		<a href="./svelte/bind/select">BIND - SELECT</a>
 	</li>
+	<li>
+		<a href="./svelte/effect">EFFECT</a>
+	</li>
+	<li>
+		<a href="./svelte/effect-sem-dependencias">EFFECT SEM DEPENDÊNCIAS</a>
+	</li>
+
 	<li>
 		<a href="./svelte/class-directive">CLASS DIRECTIVE</a>
 	</li>
