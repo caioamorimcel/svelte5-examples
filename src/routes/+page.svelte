@@ -20,6 +20,9 @@
 		<a href="./svelte/effect">EFFECT</a>
 	</li>
 	<li>
+		<a href="./svelte/use">USE</a>
+	</li>
+	<li>
 		<a href="./svelte/effect-sem-dependencias">EFFECT SEM DEPENDÊNCIAS</a>
 	</li>
 
