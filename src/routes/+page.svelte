@@ -36,6 +36,9 @@
 		<a href="./svelte/props">PROPS</a>
 	</li>
 	<li>
+		<a href="./svelte/bindable">BINDABLE</a>
+	</li>
+	<li>
 		<a href="./svelte/snippet">SNIPPET</a>
 	</li>
 	<li>
