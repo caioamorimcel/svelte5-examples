@@ -8,15 +8,11 @@
 </div>
 
 <div>
-	<button class:classButton={contador > 5} onclick={() => (contador = contador - 1)}
-		>DIMINUIR</button
-	>
+	<button onclick={() => (contador = contador - 1)}>DIMINUIR</button>
 	<span class:classGreen={contador > 0} class:classRed={contador < 0}>
 		{contador}
 	</span>
-	<button class:classButton={contador > 5} onclick={() => (contador = contador + 1)}
-		>AUMENTAR</button
-	>
+	<button onclick={() => (contador = contador + 1)}>AUMENTAR</button>
 </div>
 
 <style>
@@ -25,7 +21,7 @@
 		color: white;
 	}
 	.classGreen {
-		background-color: lightgreen;
+		background-color: green;
 		color: white;
 	}
 </style>
