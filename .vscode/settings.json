@@ -14,6 +14,11 @@
 	"svelte.enable-ts-plugin": true, // 'SVELTE FOR VS CODE' TYPESCRIPT PLUGIN WHICH PROVIDES INTELLISENSE FOR SVELTE FILES INSIDE TS/JS FILES.
 	"files.associations": {
 		"*.json": "jsonc" // ENABLE COMMENTS IN JSON FILES.
+	},
+	/////
+	// PRISMA
+	"[prisma]": {
+		"editor.defaultFormatter": "Prisma.prisma" // FORMATTER FOR PRISMA FILES.
 	}
 	/////
 }

@@ -3,7 +3,7 @@
 
 	let {
 		children,
-		cabecalho
+		cabecalho,
 	}: {
 		children: Snippet;
 		cabecalho: Snippet;

@@ -1,7 +1,7 @@
 <script lang="ts">
 	let {
 		nome = 'Joaquim',
-		idade
+		idade,
 	}: {
 		nome: string;
 		idade?: number;

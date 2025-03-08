@@ -1,6 +1,6 @@
 <script lang="ts">
 	let {
-		prop = $bindable()
+		prop = $bindable(),
 	}: {
 		prop: number;
 	} = $props();

@@ -5,6 +5,8 @@
 		"dbaeumer.vscode-eslint", // ESLINT
 		"natqe.reload", // RELOAD
 		"chanzhaoyu.svelte-5-snippets", // SNIPPETS
-		"formulahendry.auto-rename-tag"
+		"formulahendry.auto-rename-tag", // AUTO RENAME TAG
+		"prisma.prisma", // PRISMA
+		"mikestead.dotenv" // ENV
 	]
 }

@@ -4,7 +4,7 @@
 	let stateCounter = $state<number>(1);
 
 	let {
-		children
+		children,
 	}: {
 		children: Snippet<[number]>;
 	} = $props();
