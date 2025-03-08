@@ -82,4 +82,7 @@
 	<li>
 		<a href="./sveltekit/page-state">PAGE STATE</a>
 	</li>
+	<li>
+		<a href="./sveltekit/form">FORMS</a>
+	</li>
 </ul>
