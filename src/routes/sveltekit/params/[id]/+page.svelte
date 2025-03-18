@@ -1,7 +1,7 @@
 <script lang="ts">
-	import type { PageData } from './$types';
+	import type { PageProps } from './$types';
 
-	const { data }: { data: PageData } = $props();
+	const { data }: PageProps = $props();
 </script>
 
 NESTE EXEMPLO, O ID 620 É CARREGADO NA LOAD FUNCTION E UMA REQUISIÇÃO FETCH É FEITA PARA UMA API COM

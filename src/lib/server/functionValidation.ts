@@ -15,7 +15,7 @@ export async function functionValidation<T extends Schema>({
 	const parsed = formdata ? schema.safeParse(form) : schema.safeParse(object);
 	if (parsed.success === false) {
 		return {
-			success: parsed.success,
+			valid: parsed.success,
 			fail: fail(400, {
 				success: false,
 				errors: parsed.error.flatten().fieldErrors,
@@ -23,7 +23,7 @@ export async function functionValidation<T extends Schema>({
 		};
 	}
 	return {
-		success: true,
+		valid: parsed.success,
 		data: parsed.data as z.infer<T>,
 	};
 }

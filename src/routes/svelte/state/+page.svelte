@@ -1,9 +1,9 @@
 <script>
-	let stateCounter = $state(1);
+	let contador = $state(1);
 </script>
 
-<div>COUNTER: {stateCounter}</div>
+<div>CONTADOR: {contador}</div>
 <div>
-	<button onclick={() => (stateCounter = stateCounter + 1)}>AUMENTAR</button>
-	<button onclick={() => (stateCounter = stateCounter - 1)}>DIMINUIR</button>
+	<button onclick={() => (contador = contador + 1)}>AUMENTAR</button>
+	<button onclick={() => (contador = contador - 1)}>DIMINUIR</button>
 </div>

@@ -1,7 +1,7 @@
 <script lang="ts">
-	import type { PageData } from './$types';
+	import type { PageProps } from './$types';
 
-	const { data }: { data: PageData } = $props();
+	const { data }: PageProps = $props();
 </script>
 
 {data.objeto}
