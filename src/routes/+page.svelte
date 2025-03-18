@@ -83,6 +83,9 @@
 		<a href="./sveltekit/page-state">PAGE STATE</a>
 	</li>
 	<li>
+		<a href="./sveltekit/typing-page-data">TYPED PAGE STATE</a>
+	</li>
+	<li>
 		<a href="./sveltekit/form">FORMS</a>
 	</li>
 </ul>
