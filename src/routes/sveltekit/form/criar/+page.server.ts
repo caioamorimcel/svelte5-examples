@@ -1,26 +1,5 @@
-import { funcaoValidacao } from '$lib/server/funcaoValidacao';
-import { prismaClient } from '$lib/server/prismaClient';
-import type { Action, Actions } from './$types';
-import { schema } from './schema.server';
-
-const actionCriar: Action = async function ({ request }) {
-	const validacao = await funcaoValidacao({
-		request,
-		schema,
-	});
-
-	if (validacao.valid === false) {
-		return validacao.fail;
-	}
-
-	await prismaClient.tabelaUsuarios.create({
-		data: validacao.data,
-	});
-
-	return {
-		success: true,
-	};
-};
+import type { Actions } from './$types';
+import { actionCriar } from './actionCriar';
 
 export const actions: Actions = {
 	actionCriar,
