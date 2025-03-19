@@ -1,15 +1,11 @@
 <script lang="ts">
-	import { goto } from '$app/navigation';
+	// import { goto } from '$app/navigation';
 	import type { PageData } from './$types';
 
 	const { data }: { data: PageData } = $props();
 </script>
 
-<button
-	onclick={() => {
-		goto('./form/criar');
-	}}>CRIAR USUÁRIO</button
->
+<a href="./form/criar/">CRIAR</a>
 
 <ul>
 	{#if data.usuarios.length === 0}
@@ -17,9 +13,9 @@
 	{:else}
 		{#each data.usuarios as current}
 			<li>
-				{current.campoNome} / {current.campoIdade} / {current.campoOculos
+				NOME: {current.campoNome} / IDADE: {current.campoIdade} / {current.campoOculos
 					? 'USA ÓCULOS'
-					: 'NÃO USA ÓCULOS'}
+					: 'NÃO USA ÓCULOS'} <a href={`./form/editar/${current.idUsuarios}`}>(EDITAR)</a>
 			</li>
 		{/each}
 	{/if}

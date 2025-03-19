@@ -77,6 +77,9 @@
 		<a href="./sveltekit/params/620">PARAMS</a>
 	</li>
 	<li>
+		<a href="./sveltekit/params-opcional/">PARAMS OPCIONAL</a>
+	</li>
+	<li>
 		<a href="./sveltekit/params-matcher/42">PARAM MATCHER</a>
 	</li>
 	<li>
@@ -84,6 +87,9 @@
 	</li>
 	<li>
 		<a href="./sveltekit/typing-page-data">TYPED PAGE STATE</a>
+	</li>
+	<li>
+		<a href="./sveltekit/invalidateAll">INVALIDATE ALL</a>
 	</li>
 	<li>
 		<a href="./sveltekit/form">FORMS</a>

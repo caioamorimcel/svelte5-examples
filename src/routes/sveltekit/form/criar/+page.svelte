@@ -1,33 +1,41 @@
 <script lang="ts">
-	import type { ActionData } from './$types';
+	import { goto } from '$app/navigation';
+	import { funcaoEnviarFormulario } from '$lib/functions/funcaoEnviarFormulario';
+	import type { PageProps } from './$types';
 
-	let {
-		form,
-	}: {
-		form: ActionData;
-	} = $props();
+	let { form }: PageProps = $props();
 
 	$effect(() => {
 		if (form?.success) {
-			alert('SUCESSO!');
+			goto('./');
 		}
 	});
 </script>
 
-<a href="./">VOLTAR</a>
+<div>
+	<a href="./">VOLTAR</a>
+</div>
 
-<form action="?/actionCriar" method="POST">
+<br />
+
+<form action="?/actionCriar" method="POST" onsubmit={funcaoEnviarFormulario}>
 	<div>
-		<label for="campoNome"> NOME: </label>
-		<input type="text" id="campoNome" name="campoNome" required />
+		NOME: <input autocomplete="off" required type="text" id="campoNome" name="campoNome" />
 	</div>
 	<div>
-		<label for="campoIdade"> IDADE: </label>
-		<input type="number" id="campoIdade" name="campoIdade" />
+		IDADE (opcional): <input type="number" id="campoIdade" name="campoIdade" />
 	</div>
 	<div>
-		<label for="campoIdade"> USA ÓCULOS: </label>
-		<input type="checkbox" id="campoOculos" name="campoOculos" />
+		USA ÓCULOS: <input type="checkbox" id="campoOculos" name="campoOculos" />
 	</div>
-	<button type="submit">ENVIAR</button>
+
+	{#if form?.success === false}
+		<div>
+			OS DADOS ENVIADOS PARA O SERVIDOR NÃO SATISFAZEM O SCHEMA. OU SEJA, NÃO FORAM VALIDADOS.
+		</div>
+	{/if}
+	<br />
+	<div>
+		<button type="submit">ENVIAR</button>
+	</div>
 </form>

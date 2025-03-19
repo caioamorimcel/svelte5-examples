@@ -1,7 +1,7 @@
 import { fail } from '@sveltejs/kit';
 import { type Schema, z } from 'zod';
 
-export async function functionValidation<T extends Schema>({
+export async function funcaoValidacao<T extends Schema>({
 	request,
 	schema,
 	formdata = true,
