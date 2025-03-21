@@ -1,6 +1,6 @@
 import type { Actions } from './$types';
-import { actionCriar } from './actionCriar';
+import { actionBomDia } from './actionBomDia';
 
 export const actions: Actions = {
-	actionCriar,
+	actionBomDia,
 };

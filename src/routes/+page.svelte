@@ -92,6 +92,24 @@
 		<a href="./sveltekit/invalidateAll">INVALIDATE ALL</a>
 	</li>
 	<li>
-		<a href="./sveltekit/form">FORMS</a>
+		<ul>
+			<li>
+				<a href="./sveltekit/form/formaction-simples">FORM ACTION SIMPLES</a>
+			</li>
+			<li>
+				<a href="./sveltekit/form/formaction-com-input">FORM ACTION COM INPUT</a>
+			</li>
+			<li>
+				<a href="./sveltekit/form/formaction-com-input-sem-recarregamento"
+					>FORM ACTION COM INPUT SEM RECARREGAMENTO</a
+				>
+			</li>
+			<li>
+				<a href="./sveltekit/form/prop-form">PROP FORM</a>
+			</li>
+			<li>
+				<a href="./sveltekit/form/prop-form-com-validacao">PROP FORM COM VALIDAÇÃO</a>
+			</li>
+		</ul>
 	</li>
 </ul>
