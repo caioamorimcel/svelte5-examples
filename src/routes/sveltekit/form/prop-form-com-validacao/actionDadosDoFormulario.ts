@@ -8,11 +8,10 @@ export const actionDadosDoFormulario: Action = async function ({ request }) {
 		schema,
 	});
 
-	if (validacao.valid === false) {
+	if ('fail' in validacao) {
+		console.log(validacao.fail?.data);
 		return validacao.fail;
 	}
-
-	console.log(validacao.data);
 
 	return {
 		success: true, // A LOAD FUNCTION SERÁ EXECUTADA NOVAMENTE POIS UM RETORNO PURO E SIMPLES PROVOCA O INVALIDATEALL.

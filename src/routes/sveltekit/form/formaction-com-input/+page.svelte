@@ -3,5 +3,6 @@ PÁGINA).
 
 <form action="?/actionDadosDoFormulario" method="POST">
 	<input type="text" name="nomedocampo" value="OI" />
+	<input type="text" name="outrocampo" value="OUTRO" />
 	<button type="submit">ENVIAR</button>
 </form>
